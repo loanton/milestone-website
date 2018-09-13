@@ -1,0 +1,92 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	margin: 0 auto;
+	color: white;
+	background-color: black;
+}
+
+.top {
+	padding: 26px 0 0 15px;
+ 
+}
+
+header h2 {
+	float: left;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+
+header nav {
+  float: right;
+  font-size: 30px
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline;
+	padding: 0 8px;
+}
+
+#banner {
+	clear: both;
+	font-family: 'Source Code Pro', monospace;
+	background-image: url('../img/hero-background.png');
+	background-size: 100% 100%;
+	margin: 0 auto;
+	height: 700px;
+}
+
+#banner h1 {
+	font-size: 72px;
+	padding: 200px 0 0 100px
+
+}
+
+#banner span {
+	color: #fa0075;
+}
+
+/***** Second Section *****/
+.portfolio {
+	background-color: black;
+	margin-top: -30px;
+	clear: both;
+}
+
+.portfolio h2 {
+	text-align: center;
+	color: #fa0075;
+	letter-spacing: 5px;
+	font-size: 36px;
+	padding-top: 48px;
+	padding-bottom: 60px;
+}
+
+.full-width {
+	clear: both;
+}
+
+.half-width {
+	float: left;
+	color: white;
+	width: 50%;
+}
+
+.about {
+	clear: both;
+}
